@@ -104,3 +104,34 @@ ul li a{
     display: flex;
     justify-content: space-between;
 }
+
+
+
+/* section-3 */
+
+.section-3 {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section-3 .card {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+.icon-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid;
+    padding: 20px;
+}
+.section-3 .para {
+    width: 1000px;
+    margin: auto;
+}
