@@ -65,12 +65,14 @@ ul li a{
 .section-1-1stPart .two-btn >button:first-of-type {
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 .section-1-1stPart .two-btn >button:last-of-type {
     color: #FD6E0A;
     font-weight: bold;
     background-color: transparent;
     border: 1px solid;
+    cursor: pointer;
 }
 .section-1-1stPart h2{
     font-size: 50px;
