@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+     font-family: "Open Sans", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+span{
+    color:orange;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+.btn {
+    padding: 0.8rem;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* section 1 */
+
+
+.section-1 {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.section-1-1stPart {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.section-1-1stPart > p:first-of-type{
+    font-size: 40px;
+}
+.section-1-1stPart > p:last-of-type{
+    opacity: 0.5;
+}
+.section-1-1stPart .two-btn >button:first-of-type {
+    color: white;
+    font-weight: bold;
+}
+.section-1-1stPart .two-btn >button:last-of-type {
+    color: #FD6E0A;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid;
+}
+.section-1-1stPart h2{
+    font-size: 50px;
+}
+
+.section-1-2ndPart img {
+    width: 584px;
+    height: 629px;
+}
