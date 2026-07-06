@@ -82,3 +82,25 @@ ul li a{
     width: 584px;
     height: 629px;
 }
+
+
+
+/* section-2 */
+
+
+.section-2 {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width:1000px;
+    padding: 50px;
+}
+
+.section-2-thirdPart {
+    display: flex;
+    justify-content: space-between;
+}
