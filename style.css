@@ -135,3 +135,72 @@ ul li a{
     width: 1000px;
     margin: auto;
 }
+
+/* section-4 */
+
+.section-4 {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.section-4 h4{
+   font-size: 25px;
+}
+.main-section-title{
+    text-align: center;
+    
+}
+.container-div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.container-div-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+.container-div-left hr{
+    opacity: 0.5;
+}
+.container-div-leftPart {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.container-div-leftPart h5 {
+    font-size: 15px;
+}
+.container-div-leftPart >p:first-of-type {
+    font-size: 13px;
+}
+.container-div-leftPart >p:last-of-type {
+    font-size: 10px;
+}
+
+.container-div-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+.container-div-right hr{
+    opacity: 0.5;
+}
+.container-div-rightPart {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.container-div-rightPart h5 {
+    font-size: 15px;
+}
+.container-div-rightPart >p:first-of-type {
+    font-size: 13px;
+}
+.container-div-rightPart >p:last-of-type {
+    font-size: 10px;
+}
