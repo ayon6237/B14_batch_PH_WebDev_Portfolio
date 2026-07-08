@@ -38,6 +38,8 @@ ul li a{
     border-radius: 10px;
     font-size: 20px;
     cursor: pointer;
+    color: white;
+    font-weight: bold;
 }
 
 
@@ -207,4 +209,50 @@ ul li a{
 .section-4-btn {
     margin-left: 500px;
     margin-top: 50px;
+}
+
+/* footer */
+
+
+.footer {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.footer div {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer .icon{
+    display: flex;
+    flex-direction: row;
+    color: orange;
+}
+.footer .icon i {
+    cursor: pointer;
+}
+.footer input {
+    padding: 15px;
+    background-color: #e4dada;
+    border: none;
+    border-radius: 20px;
+    width: 60%;
+}
+.footer textarea {
+    padding: 15px;
+    background-color: #e4dada;
+    border: none;
+    border-radius: 20px;
+    width: 60%;
+}
+.footer-btn {
+    width: 40%;
+}
+footer {
+    background-color: rgb(236, 233, 226);
+    padding-top: 20px;
 }
